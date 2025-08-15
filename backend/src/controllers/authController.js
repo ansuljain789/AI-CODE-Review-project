@@ -34,6 +34,8 @@ const signup = async (req, res) => {
 
   try {
     const { email, password, name } = req.body;
+    console.log(password);
+    
     if (!email || !password) return res.status(400).json({ message: "Email and password required" });
 
     const existing = await User.findOne({ email: email.toLowerCase() });
@@ -51,6 +53,8 @@ const signup = async (req, res) => {
 
 const login = async (req, res) => {
   const { email, password } = req.body;
+  console.log(password);
+  
   try {
     const user = await User.findOne({ email });
     if (!user) return res.status(400).json({ msg: "Invalid credentials" });
