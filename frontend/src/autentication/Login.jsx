@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Meta, useNavigate } from "react-router-dom";
 import { FiMail, FiLock } from "react-icons/fi";
 //import { useGoogleLogin } from "@react-oauth/google";
  import axios from "axios";
@@ -13,9 +13,10 @@ const [password, setPassword] = useState("");
 
   const handleLoginJWT = async (e) => {
   e.preventDefault();
+  const END = import.meta.env.VITE_REACT_API_ENDPOINT;
 
   try {
-    const res = await axios.post("http://localhost:3000/api/auth/login", {
+    const res = await axios.post(`${END}/api/auth/login`, {
       email,
       password,
     });
