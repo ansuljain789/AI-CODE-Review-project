@@ -132,14 +132,14 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
 ▶️ How to Run the Project
   
    🔧 Prerequisites
-      🔹Node.js installed (>= v16)
-      🔹MongoDB running locally or on Atlas
-      🔹Gemini API Key
+     🔹Node.js installed (>= v16)
+     🔹MongoDB running locally or on Atlas
+     🔹Gemini API Key
 
   ⚡ Steps
     
      1: Clone the repository
-     🔹git clone https://github.com/your-username/github-auto-push-chatbot.git
+     🔹git clone https://github.com/ansuljain789/AI-CODE-Review-project.git
      🔹cd github-auto-push-chatbot
 
      2:Install dependencies
@@ -148,15 +148,26 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
 
      3:Setup environment variables
         🔹Create a .env file in the backend folder with:
+
            GOOGLE_API_KEY= yourgeminiapikey
-           PORT=3000
+           PORT=PORTNUMBER
            MONGO_URI= yourmongodb url
            JWT_SECRET=12345
            FRONTEND_URL=YOURFRONTENDURL
-        
-            
+        🔹Create a .env file in the backend folder with:
+           VITE_REACT_API_ENDPOINT= YOURBACKENDURL
 
-      
+           
+     4: Run the backend 
+         nodemon server.js OR node server.js
+     5: Run the frontend
+         npm run dev 
+
+👤 Author
+   Ansul Jain
+   GitHub: https://github.com/ansuljain789
+   Email: ansuljain789@gmail.com
+
 🌟 Benefits
    ✅ Secure & personalized (user-specific reviews)
    ✅ Saves costs (reuses cached reviews)
@@ -165,7 +176,16 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
 
 📚 Future Enhancements
 
-  📌 Batch code review (multiple files at once)
-  📌 Export reviews to PDF/Markdown
-  📌 Real-time collaboration between users
-  📌 Customizable AI strictness levels
+   📌 Batch code review (multiple files at once)
+   📌 Export reviews to PDF/Markdown
+   📌 Real-time collaboration between users
+   📌 Customizable AI strictness levels
+
+🤝 Contributions
+   🔹Fork the repo
+   🔹Create a feature branch: git checkout -b feat/your-feature
+   🔹Commit: git commit -m "feat: add your feature"
+   🔹Push & open a PR 
+
+📜 License
+   🔹This project is licensed under the MIT License.
