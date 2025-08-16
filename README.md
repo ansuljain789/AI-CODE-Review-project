@@ -4,9 +4,13 @@
 
 📝 Overview:
 
-The **AI Code Review System** is an intelligent platform that analyzes, reviews, and suggests improvements for source code using Google’s Gemini AI API. It combines the power of AI with secure user authentication and smart caching to deliver fast, reliable, and cost-effective code reviews.
+The **AI Code Review System** is an intelligent platform that analyzes, reviews, and suggests improvements
+ for source code using Google’s Gemini AI API. It combines the power of AI with secure user authentication
+  and smart caching to deliver fast, reliable, and cost-effective code reviews.
 
-Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, this system ensures a smooth developer experience. All **AI-generated** responses are stored in a database so that if the same code is submitted again, results are fetched instantly without re-calling Gemini — saving time, cost, and API usage.
+Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, this system ensures a smooth
+ developer experience. All **AI-generated** responses are stored in a database so that if the same code is
+  submitted again, results are fetched instantly without re-calling Gemini — saving time, cost, and API usage.
 
 🚀 Key Features
 🔍 AI-Powered Code Review
