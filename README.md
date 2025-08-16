@@ -100,7 +100,7 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
      Email:    testuser1@gmail.com
      Password: test@1234
 
-## 📂 Project Folder Structure
+### 📂 Project Folder Structure
    
 AI-CODE-REVIEW-STUDIO/
 │
