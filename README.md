@@ -18,7 +18,6 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
  🔹**JWT-based** authentication for secure API access.
 
 🚀Role-based structure:
-
  🔹 Registered Users → Submit code for review & view their personal history.
  🔹 Admin → Access analytics & manage system usage.
  🔹 Passwords securely hashed before storage.
@@ -83,7 +82,7 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
 ## 🖼 System Architecture (ASCII Diagram)
 
    +--------+        +-------------------+        +------------------+
-   |  User  |  ----->| React Frontend    | -----> | Node.js Backend   |
+   |  User  |  ----->| React Frontend    | -----> | Node.js Backend  |
    +--------+        +-------------------+        +---------+--------+
                                                         |
                                                         v
@@ -92,9 +91,9 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
                                                   +-------+--------+
                                                         ^
                                                         |
-                                                 +-------+--------+
-                                                 |   Database     |
-                                                 +----------------+
+                                                  +-------+--------+
+                                                  |   Database     |
+                                                  +----------------+
 
 🔑 Demo Login Credentials
 
@@ -165,7 +164,6 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
 
 👤 Author
    Ansul Jain
-   GitHub: https://github.com/ansuljain789
    Email: ansuljain789@gmail.com
 
 🌟 Benefits
@@ -189,3 +187,5 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
 
 📜 License
    🔹This project is licensed under the MIT License.
+
+✨ Made with ❤️ by Ansul Jain ✨
