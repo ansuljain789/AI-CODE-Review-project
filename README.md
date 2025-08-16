@@ -153,7 +153,7 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
            MONGO_URI= yourmongodb url
            JWT_SECRET=12345
            FRONTEND_URL=YOURFRONTENDURL
-        🔹Create a .env file in the backend folder with:
+        🔹Create a .env file in the FrontEnd folder with:
            VITE_REACT_API_ENDPOINT= YOURBACKENDURL
 
            
