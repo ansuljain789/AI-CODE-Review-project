@@ -78,7 +78,7 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
   7:Store in Database → Saves both the code and review for future use.
   8:User Views Result → Review displayed with syntax highlighting in frontend.
 
-🖼 System Architecture (ASCII Diagram)
+## 🖼 System Architecture (ASCII Diagram)
 
    +--------+        +-------------------+        +------------------+
    |  User  |  ----->| React Frontend    | -----> | Node.js Backend   |
@@ -100,7 +100,7 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
      Email:    testuser1@gmail.com
      Password: test@1234
 
-📂 Project Folder Structure
+## 📂 Project Folder Structure
    
 AI-CODE-REVIEW-STUDIO/
 │
