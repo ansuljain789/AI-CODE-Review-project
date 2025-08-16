@@ -101,32 +101,30 @@ Built with a **React.js (Vite)** frontend and a **Node.js + Express** backend, t
      Password: test@1234
 
 ### 📂 Project Folder Structure
-   
-AI-CODE-REVIEW-STUDIO/
 │
-├── backend/                     # Backend (Node.js + Express + Gemini API Integration)
-│   ├── node_modules/            # Backend dependencies
-│   ├── src/                     # Backend source files
-│   ├── .env                     # Environment variables (API keys, DB config)
-│   ├── .gitignore               # Git ignored files for backend
-│   ├── package-lock.json        # Dependency lock file
-│   ├── package.json             # Backend dependencies & scripts
-│   └── server.js                # Main backend entry point
+├── backend/ # Node.js + Express + Gemini integration
+│ ├── node_modules/
+│ ├── src/
+│ ├── .env # API keys, DB config
+│ ├── .gitignore
+│ ├── package-lock.json
+│ ├── package.json
+│ └── server.js # Backend entry
 │
-├── frontend/                    # Frontend (React + Vite)
-│   ├── node_modules/            # Frontend dependencies
-│   ├── public/                  # Static files (favicon, assets, etc.)
-│   ├── src/                     # React source code (components, pages, etc.)
-│   ├── .env                     # Environment variables (frontend config)
-│   ├── .gitignore               # Git ignored files for frontend
-│   ├── eslint.config.js         # ESLint configuration
-│   ├── index.html               # Main HTML file for React
-│   ├── package-lock.json        # Dependency lock file
-│   ├── package.json             # Frontend dependencies & scripts
-│   ├── vite.config.js           # Vite build configuration
-│   └── README.md                # Frontend-specific documentation
+├── frontend/ # React + Vite
+│ ├── node_modules/
+│ ├── public/
+│ ├── src/
+│ ├── .env # Frontend env (e.g., VITE_* vars)
+│ ├── .gitignore
+│ ├── eslint.config.js
+│ ├── index.html
+│ ├── package-lock.json
+│ ├── package.json
+│ ├── vite.config.js
+│ └── README.md
 │
-├── README.md                    # Main project documentation (this file)
+└── README.md # Main project documentation
 
 ▶️ How to Run the Project
   
